@@ -1,0 +1,4 @@
+title: PricipiosActivos
+modelClass: Vertice\Productos\Models\PrincipioActivo
+toolbar:
+    buttons: reorder_toolbar

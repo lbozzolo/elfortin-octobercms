@@ -1,0 +1,10 @@
+name: Categorias
+form: $/vertice/productos/models/categoria/fields.yaml
+modelClass: Vertice\Productos\Models\Categoria
+defaultRedirect: vertice/productos/categorias
+create:
+    redirect: 'vertice/productos/categorias/update/:id'
+    redirectClose: vertice/productos/categorias
+update:
+    redirect: vertice/productos/categorias
+    redirectClose: vertice/productos/categorias

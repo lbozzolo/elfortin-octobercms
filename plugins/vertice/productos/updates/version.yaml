@@ -1,0 +1,26 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table vertice_productos_'
+    - builder_table_create_vertice_productos_.php
+1.0.3:
+    - 'Created table vertice_productos_laboratorios'
+    - builder_table_create_vertice_productos_laboratorios.php
+1.0.4:
+    - 'Created table vertice_productos_categorias'
+    - builder_table_create_vertice_productos_categorias.php
+1.0.5:
+    - 'Created table vertice_productos_categorias_productos'
+    - builder_table_create_vertice_productos_categorias_productos.php
+1.0.6:
+    - 'Updated table vertice_productos_categorias_productos'
+    - builder_table_update_vertice_productos_categoria_producto.php
+1.0.7:
+    - 'Drop table vertice_productos_categoria_producto'
+    - builder_table_delete_vertice_productos_categoria_producto.php
+1.0.8:
+    - 'Created table vertice_productos_categoria_producto'
+    - builder_table_create_vertice_productos_categoria_producto.php
+1.0.9:
+    - 'Created table vertice_productos_principioactivo'
+    - builder_table_create_vertice_productos_principioactivo.php

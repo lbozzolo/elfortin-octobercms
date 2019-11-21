@@ -1,0 +1,35 @@
+{% set productos = __SELF__.productos %}
+
+<ul class="list-inline">
+    {% for producto in productos %}
+
+        <li>
+            <h3>{{ producto.name }}</h3>
+            <h4>{{ producto.laboratorio.name }}</h4>
+            <a href="{{ producto.poster.path }}">
+                <img src="{{ producto.poster.thumb(150,150, {'mode':'crop'}) }}">
+            </a>
+        </li>
+
+    {% endfor %}
+</ul>
+
+
+
+<!--<ul class="list-inline">-->
+    <!--{% for image in record.product_gallery %}-->
+    <!--<li>-->
+        <!--<a href="{{ image.path }}">-->
+            <!--<img src="{{ image.thumb(80,80, {'mode':'crop'}) }}">-->
+        <!--</a>-->
+    <!--</li>-->
+    <!--{% endfor %}-->
+<!--</ul>-->
+
+<!--<ul class="list-inline">-->
+    <!--{% for categoria in record.categorias %}-->
+    <!--<li>-->
+        <!--{{ categoria.name }}-->
+    <!--</li>-->
+    <!--{% endfor %}-->
+<!--</ul>-->

@@ -1,0 +1,47 @@
+description = "scripts"
+==
+
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+54 91151321300", // WhatsApp number
+            call_to_action: "Envianos un mensaje!!!", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+<!-- all js here -->
+<!-- jquery latest version -->
+<script src="{{ 'assets/js/vendor/jquery-1.12.0.min.js'|theme }}"></script>
+<!-- bootstrap js -->
+<script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+<!-- jquery.meanmenu js -->
+<script src="{{ 'assets/js/jquery.meanmenu.js'|theme }}"></script>
+<!-- slick.min js -->
+<script src="{{ 'assets/js/slick.min.js'|theme }}"></script>
+<!-- jquery.treeview js -->
+<script src="{{ 'assets/js/jquery.treeview.js'|theme }}"></script>
+<!-- lightbox.min js -->
+<script src="{{ 'assets/js/lightbox.min.js'|theme }}"></script>
+<!-- jquery-ui js -->
+<script src="{{ 'assets/js/jquery-ui.min.js'|theme }}"></script>
+<!-- jquery.nivo.slider js -->
+<script src="{{ 'assets/lib/js/jquery.nivo.slider.js'|theme }}"></script>
+<script src="{{ 'assets/lib/home.js'|theme }}"></script>
+<!-- jquery.nicescroll.min js -->
+<script src="{{ 'assets/js/jquery.nicescroll.min.js'|theme }}"></script>
+<!-- countdon.min js -->
+<script src="{{ 'assets/js/countdon.min.js'|theme }}"></script>
+<!-- wow js -->
+<script src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+<!-- plugins js -->
+<script src="{{ 'assets/js/plugins.js'|theme }}"></script>
+<!-- main js -->
+<script src="{{ 'assets/js/main.js'|theme }}"></script>
+
+{% framework extras %}

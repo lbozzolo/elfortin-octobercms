@@ -1,0 +1,71 @@
+fields:
+    name:
+        label: Nombre
+        span: left
+        type: text
+    presentacion:
+        label: Presentación
+        span: right
+        type: text
+    description:
+        label: Descripción
+        size: large
+        span: left
+        type: richeditor
+    caracteristicas:
+        label: Características
+        size: large
+        span: right
+        type: richeditor
+    code:
+        label: Código
+        span: left
+        type: text
+    principio:
+        label: 'Principio Activo'
+        nameFrom: name
+        descriptionFrom: description
+        span: right
+        type: relation
+    price:
+        label: Precio
+        span: left
+        type: text
+    laboratorio:
+        label: Laboratorio
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    highlight:
+        label: Destacar
+        span: left
+        type: switch
+    categorias:
+        label: Categorías
+        nameFrom: name
+        descriptionFrom: description
+        span: right
+        type: relation
+    poster:
+        label: 'Imagen principal'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    product_gallery:
+        label: 'Galería de imágenes'
+        span: full
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '80'
+        imageHeight: '80'
+        type: fileupload

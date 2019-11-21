@@ -1,0 +1,106 @@
+title = "Categorias"
+url = "/categorias/:slug/:page?"
+layout = "main"
+is_hidden = 0
+
+[productos]
+results = 0
+sortOrder = "id asc"
+
+==
+
+    function onStart(){
+        $this['basePath'] = Illuminate\Support\Facades\URL::to('/producto');
+    }
+
+==
+{% set records = productos.productos %}
+
+
+
+
+<div class="product-area pt-80 pb-80 product-style-2 mb-60 mt-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="table-content table-responsive">
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th class="product-thumbnail">Producto</th>
+                            <th class="product-price">Principio Activo</th>
+                            <th class="product-stock">Laboratorio</th>
+                            <th class="product-add-cart">Presentación</th>
+                            <th class="product-add-cart">Categorías</th>
+                            <th class="product-remove"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        {% for record in records %}
+                        <tr>
+                            <td class="product-thumbnail  text-left">
+                                <!-- Single-product start -->
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <a href="single-product.html">
+                                            {% if(record.poster) %}
+                                            <img src="{{ record.poster.thumb(150,150, {'mode' : 'crop'}) }}" alt="" />
+                                            {% else %}
+                                            <img src="{{'assets/img/logo/logo01.png'|theme }}" alt="" />
+                                            {% endif %}
+                                        </a>
+                                    </div>
+                                    <div class="product-info">
+                                        <h4 class="post-title"><a class="text-light-black" href="#">{{ record.name }}</a></h4>
+                                        <p class="mb-0">Color :  Black</p>
+                                        <p class="mb-0">Size : SL</p>
+                                    </div>
+                                </div>
+                                <!-- Single-product end -->
+                            </td>
+                            <td class="product-price">{{ record.principio.name }}</td>
+                            <td class="product-stock">{{ record.laboratorio.name }}</td>
+                            <td class="product-add-cart">{{ record.presentacion }}</td>
+                            <td class="product-add-cart">
+                                {% for categoria in record.categorias %}
+
+                                <span style="padding: 5px 10px; color:white; background-color: darkkhaki; border-radius: 5px">{{ categoria.name }}</span>
+
+                                {% endfor %}
+                            </td>
+                            <td class="product-remove">
+                                {% if detailsPage %}
+                                <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}" data-text="ver" class="button-one">detalles</a>
+                                {% endif %}
+
+                                <!--<a href="producto/{{ record.id }}" data-text="ver" class="button-one">detalles</a>-->
+                                <a href="{{ basePath }}/{{ record.id}}" data-text="ver" class="button-one">detalles</a>
+
+                            </td>
+                        </tr>
+
+                        {% else %}
+
+                        <tr>
+                            <td colspan="5">
+                                <p>{{ noRecordsMessage }}</p>
+                            </td>
+                        </tr>
+
+                        {% endfor %}
+
+                        </tbody>
+                    </table>
+
+                    <div class="mt-50">
+
+                        {{ records.render|raw }}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

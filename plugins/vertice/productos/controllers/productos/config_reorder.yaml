@@ -1,0 +1,4 @@
+title: Productos
+modelClass: Vertice\Productos\Models\Producto
+toolbar:
+    buttons: reorder_toolbar

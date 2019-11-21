@@ -1,0 +1,10 @@
+name: Productos
+form: $/vertice/productos/models/producto/fields.yaml
+modelClass: Vertice\Productos\Models\Producto
+defaultRedirect: vertice/productos/productos
+create:
+    redirect: 'vertice/productos/productos/update/:id'
+    redirectClose: vertice/productos/productos
+update:
+    redirect: vertice/productos/productos
+    redirectClose: vertice/productos/productos

@@ -1,0 +1,12 @@
+list: $/vertice/productos/models/producto/columns.yaml
+modelClass: Vertice\Productos\Models\Producto
+title: Productos
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'vertice/productos/productos/update/:id'

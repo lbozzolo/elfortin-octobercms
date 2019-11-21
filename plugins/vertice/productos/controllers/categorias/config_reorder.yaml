@@ -1,0 +1,4 @@
+title: Categorias
+modelClass: Vertice\Productos\Models\Categoria
+toolbar:
+    buttons: reorder_toolbar

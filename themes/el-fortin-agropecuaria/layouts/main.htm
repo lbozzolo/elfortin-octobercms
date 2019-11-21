@@ -1,0 +1,30 @@
+description = "Main layout"
+==
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    {% partial ('head') %}
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        {% partial ('header') %}
+
+
+
+            {% page %}
+
+
+
+        {% partial ('footer') %}
+
+    </div>
+
+    {% partial ('scripts') %}
+
+</body>
+</html>

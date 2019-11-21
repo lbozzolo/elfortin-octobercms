@@ -1,0 +1,32 @@
+subject='Solicitud de cotización'
+==
+<h2>Solicitud de Cotización</h2>
+<p>Enviada por {{ data.name }}</p>
+
+
+<h3>Producto</h3>
+
+<table>
+    <thead>
+        <tr style="background-color: gray; color: white">
+            <td style="padding: 5px 10px">Producto</td>
+            <td style="padding: 5px 10px">Laboratorio</td>
+            <td style="padding: 5px 10px">Presentación</td>
+            <td style="padding: 5px 10px">Principio Activo</td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td style="padding: 5px 10px; border: 1px solid gray">{{ data.producto }}</td>
+        <td style="padding: 5px 10px; border: 1px solid gray">{{ data.laboratorio }}</td>
+        <td style="padding: 5px 10px; border: 1px solid gray">{{ data.presentacion }}</td>
+        <td style="padding: 5px 10px; border: 1px solid gray">{{ data.principio }}</td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+
+<h3>Comentarios</h3>
+
+<p>{{ data.content }}</p>

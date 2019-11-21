@@ -1,0 +1,20 @@
+{% set producto = __SELF__.record %}
+
+<form data-request="onSend">
+    <input type="hidden" name="producto_id" value="{{ record.id }}">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" placeholder="Su nombre aquí..." name="name" />
+        </div>
+        <div class="col-md-6">
+            <input type="text" placeholder="Email..." name="email" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <label>Comentario</label>
+            <textarea class="custom-textarea" name="message" placeholder="" ></textarea>
+            <button type="submit" data-text="Cotizar" class="button-one submit-button mt-20">Enviar</button>
+        </div>
+    </div>
+</form>

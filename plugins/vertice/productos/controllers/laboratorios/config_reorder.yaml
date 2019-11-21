@@ -1,0 +1,4 @@
+title: Laboratorios
+modelClass: Vertice\Productos\Models\Laboratorio
+toolbar:
+    buttons: reorder_toolbar

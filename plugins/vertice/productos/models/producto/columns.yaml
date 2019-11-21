@@ -1,0 +1,37 @@
+columns:
+    name:
+        label: Nombre
+        type: text
+        searchable: true
+        sortable: true
+    code:
+        label: Código
+        type: number
+        searchable: true
+    laboratorio_id:
+        label: Laboratorio
+        type: text
+        searchable: true
+        relation: laboratorio
+        select: name
+    categorías:
+        label: Categorías
+        type: text
+        searchable: true
+        select: name
+        relation: categorias
+    principio_activo:
+        label: 'Principio Activo'
+        type: text
+        searchable: true
+        select: name
+        relation: principio
+    presentacion:
+        label: Presentación
+        type: text
+    price:
+        label: Precio
+        type: number
+    highlight:
+        label: Destacado
+        type: switch

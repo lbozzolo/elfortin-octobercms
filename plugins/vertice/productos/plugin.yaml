@@ -1,0 +1,24 @@
+plugin:
+    name: 'elfortin.productos::lang.plugin.name'
+    description: 'elfortin.productos::lang.plugin.description'
+    author: 'El Fortín'
+    icon: oc-icon-cubes
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Productos
+        url: vertice/productos/productos
+        icon: icon-cubes
+        sideMenu:
+            side-menu-item:
+                label: Laboratorios
+                url: vertice/productos/laboratorios
+                icon: icon-hospital-o
+            side-menu-item2:
+                label: Categorías
+                url: vertice/productos/categorias
+                icon: icon-tag
+            side-menu-item3:
+                label: 'Principio Activo'
+                url: vertice/productos/pricipiosactivos
+                icon: icon-eyedropper

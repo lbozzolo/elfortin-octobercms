@@ -1,0 +1,10 @@
+name: Laboratorios
+form: $/vertice/productos/models/laboratorio/fields.yaml
+modelClass: Vertice\Productos\Models\Laboratorio
+defaultRedirect: vertice/productos/laboratorios
+create:
+    redirect: 'vertice/productos/laboratorios/update/:id'
+    redirectClose: vertice/productos/laboratorios
+update:
+    redirect: vertice/productos/laboratorios
+    redirectClose: vertice/productos/laboratorios

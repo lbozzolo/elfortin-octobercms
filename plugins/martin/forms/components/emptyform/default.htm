@@ -1,0 +1,35 @@
+<h3>Here goes your custom form</h3>
+<p>Override HTML by creating a new partial called <strong>default.htm</strong> (more info <a href="https://octobercms.com/docs/cms/components#overriding-partials" target="_blank">here</a>)</p>
+<p>You can copy/paste this basic template:</p>
+<pre>
+    &lt;form data-request="&lbrace;&lbrace; __SELF__ }}::onFormSubmit"&gt;
+        &lbrace;&lbrace; form_token() &rbrace;&rbrace;
+        &lt;div id="&lbrace;&lbrace; __SELF__ &rbrace;&rbrace;_forms_flash"&gt;&lt;/div&gt;
+        &lt;!-- YOUR FORM FIELDS --&gt;
+        &lbrace;% partial '@recaptcha' %}
+        &lt;!-- SUBMIT BUTTON --&gt;
+    &lt;/form&gt;
+</pre>
+
+
+
+<form data-request="{{__SELF__ }}::onFormSubmit">
+    {{ form_token() }}
+    <div id="{{__SELF__}}_forms_flash"></div>
+    <input type="hidden" name="producto_id" value="{{ record.id }}">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" placeholder="Su nombre aquí..." name="name" />
+        </div>
+        <div class="col-md-6">
+            <input type="text" placeholder="Email..." name="email" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <label>Comentario</label>
+            <textarea class="custom-textarea" name="message" placeholder="" ></textarea>
+            <button type="submit" data-text="Cotizar" class="button-one submit-button mt-20">Enviar</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,10 @@
+name: PricipiosActivos
+form: $/vertice/productos/models/principioactivo/fields.yaml
+modelClass: Vertice\Productos\Models\PrincipioActivo
+defaultRedirect: vertice/productos/pricipiosactivos
+create:
+    redirect: 'vertice/productos/pricipiosactivos/update/:id'
+    redirectClose: vertice/productos/pricipiosactivos
+update:
+    redirect: vertice/productos/pricipiosactivos
+    redirectClose: vertice/productos/pricipiosactivos

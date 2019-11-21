@@ -1,0 +1,37 @@
+title = "busqueda"
+url = "/busqueda"
+layout = "main"
+is_hidden = 0
+
+[searchResults]
+resultsPerPage = 10
+showProviderBadge = 1
+noResultsMessage = "Su búsqueda no obtuvo resultados."
+visitPageMessage = "Ver Producto"
+==
+
+
+<div class="product-area pt-80 pb-80 product-style-2 mb-60 mt-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <h2 style="border-bottom: 1px solid gray; padding-bottom: 20px">Resultados para "{{ searchResults.query }}"</h2>
+
+                <div class="single-product clearfix">
+                {% set results = searchResults.results %}
+
+                {% for result in results %}
+                    {# Display all results #}
+                    {% partial searchResults ~ '::searchresult.htm' result = result %}
+                {% else %}
+                    {# No results found #}
+                    {% partial searchResults ~ '::no-results.htm' %}
+                {% endfor %}
+
+                {% partial searchResults ~ '::pagination.htm' results = results %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

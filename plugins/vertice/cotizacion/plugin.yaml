@@ -1,0 +1,6 @@
+plugin:
+    name: 'vertice.cotizacion::lang.plugin.name'
+    description: 'vertice.cotizacion::lang.plugin.description'
+    author: Vertice
+    icon: oc-icon-dollar
+    homepage: ''
