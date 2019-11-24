@@ -119,4 +119,8 @@
   'OFFLINE\\SiteSearch\\Classes\\Providers\\VojtaSvobodaBrandsResultsProvider' => 'plugins/offline/sitesearch/classes/providers/VojtaSvobodaBrandsResultsProvider.php',
   'OFFLINE\\SiteSearch\\Classes\\Providers\\GrakerPhotoAlbumsResultsProvider' => 'plugins/offline/sitesearch/classes/providers/GrakerPhotoAlbumsResultsProvider.php',
   'OFFLINE\\SiteSearch\\Classes\\Result' => 'plugins/offline/sitesearch/classes/Result.php',
+  'backend\\Controllers\\preferences' => 'modules/backend/controllers/preferences.php',
+  'backend\\Controllers\\users' => 'modules/backend/controllers/users.php',
+  'backend\\Controllers\\userroles' => 'modules/backend/controllers/userroles.php',
+  'backend\\Controllers\\usergroups' => 'modules/backend/controllers/usergroups.php',
 );

@@ -24,7 +24,7 @@ class User extends UserBase
      * Validation rules
      */
     public $rules = [
-        'mail' => 'required|between:6,255|mail|unique:backend_users',
+        'mail' => 'between:6,255|mail|unique:backend_users',
         'login' => 'required|between:2,255|unique:backend_users',
         'password' => 'required:create|between:4,255|confirmed',
         'password_confirmation' => 'required_with:password|between:4,255'

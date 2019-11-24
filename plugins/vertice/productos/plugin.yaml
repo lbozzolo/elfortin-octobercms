@@ -9,6 +9,8 @@ navigation:
         label: Productos
         url: vertice/productos/productos
         icon: icon-cubes
+        permissions:
+            - administrar_productos
         sideMenu:
             side-menu-item:
                 label: Laboratorios
@@ -22,3 +24,7 @@ navigation:
                 label: 'Principio Activo'
                 url: vertice/productos/pricipiosactivos
                 icon: icon-eyedropper
+permissions:
+    administrar_productos:
+        tab: Productos
+        label: 'Administrar productos'
