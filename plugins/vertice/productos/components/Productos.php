@@ -1,10 +1,7 @@
 <?php namespace Vertice\Productos\Components;
 
 use Cms\Classes\ComponentBase;
-use Vertice\Productos\Models\Categoria;
 use Vertice\Productos\Models\Producto;
-use Illuminate\Pagination\LengthAwarePaginator;
-//use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 class Productos extends ComponentBase
 {
