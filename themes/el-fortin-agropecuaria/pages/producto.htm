@@ -53,14 +53,6 @@ notFoundMessage = "Producto no encontrado"
                     <div class="product-info">
                         <div class="fix">
                             <h4 class="post-title floatleft">{{ attribute(record, displayColumn) }} - {{ record.laboratorio.name }}</h4>
-                            <!--<span class="pro-rating floatright">-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star-half"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star-half"></i></a>-->
-                                <!--<span>( 27 Rating )</span>-->
-                            <!--</span>-->
                         </div>
                         <div class="fix mb-20">
                             <span class="pro-price">$ {{ record.price }}</span>
@@ -72,6 +64,10 @@ notFoundMessage = "Producto no encontrado"
 
                         <div class="product-description">
                             <p>{{ record.description|raw }}</p>
+                        </div>
+
+                        <div class="product-description">
+                            <p>{{ record.caracteristicas|raw }}</p>
                         </div>
                         <!-- color start -->
 
@@ -142,7 +138,7 @@ notFoundMessage = "Producto no encontrado"
                                                 <label>Comentario</label>
                                                 <textarea class="custom-textarea" name="message" placeholder="" ></textarea>
                                                 
-                                                {% component 'captcha' %}
+                                                <!--{% component 'captcha' %}-->
                                                 
                                                 <button type="submit" data-text="Cotizar" class="button-one submit-button mt-20">Enviar</button>
                                                 
