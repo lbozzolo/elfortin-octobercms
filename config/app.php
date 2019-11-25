@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/elfortin-october/',
+    'url' => env('APP_URL', 'http://localhost/elfortin-october/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'key' => 'syYMfGR2GFGSqrMXtfxktRkSRvZNDsKb',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 

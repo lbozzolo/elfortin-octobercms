@@ -1,0 +1,61 @@
+1574680015a:1:{s:12:"busqueda.htm";a:10:{s:8:"fileName";s:12:"busqueda.htm";s:7:"content";s:1146:"title = "busqueda"
+url = "/busqueda"
+layout = "main"
+is_hidden = 0
+
+[searchResults]
+resultsPerPage = 10
+showProviderBadge = 1
+noResultsMessage = "Su búsqueda no obtuvo resultados."
+visitPageMessage = "Ver Producto"
+==
+
+
+<div class="product-area pt-80 pb-80 product-style-2 mb-60 mt-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <h2 style="border-bottom: 1px solid gray; padding-bottom: 20px">Resultados para "{{ searchResults.query }}"</h2>
+
+                <div class="single-product clearfix">
+                {% set results = searchResults.results %}
+
+                {% for result in results %}
+                    {# Display all results #}
+                    {% partial searchResults ~ '::searchresult.htm' result = result %}
+                {% else %}
+                    {# No results found #}
+                    {% partial searchResults ~ '::no-results.htm' %}
+                {% endfor %}
+
+                {% partial searchResults ~ '::pagination.htm' results = results %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1574520798;s:6:"markup";s:924:"<div class="product-area pt-80 pb-80 product-style-2 mb-60 mt-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <h2 style="border-bottom: 1px solid gray; padding-bottom: 20px">Resultados para "{{ searchResults.query }}"</h2>
+
+                <div class="single-product clearfix">
+                {% set results = searchResults.results %}
+
+                {% for result in results %}
+                    {# Display all results #}
+                    {% partial searchResults ~ '::searchresult.htm' result = result %}
+                {% else %}
+                    {# No results found #}
+                    {% partial searchResults ~ '::no-results.htm' %}
+                {% endfor %}
+
+                {% partial searchResults ~ '::pagination.htm' results = results %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:8:"busqueda";s:3:"url";s:9:"/busqueda";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";s:13:"searchResults";a:4:{s:14:"resultsPerPage";s:2:"10";s:17:"showProviderBadge";s:1:"1";s:16:"noResultsMessage";s:34:"Su búsqueda no obtuvo resultados.";s:16:"visitPageMessage";s:12:"Ver Producto";}}}

@@ -1,0 +1,1000 @@
+1574680015a:1:{s:9:"index.htm";a:5:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:16845:"<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>El Fortin || Agropecuaria</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<!-- Place favicon.ico in the root directory -->
+
+		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+		<!-- all css here -->
+
+		<!-- bootstrap v3.3.6 css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- animate css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- jquery-ui.min css -->
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<!-- meanmenu css -->
+		<link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- nivo-slider css -->
+		<link rel="stylesheet" href="lib/css/nivo-slider.css">
+		<link rel="stylesheet" href="lib/css/preview.css">
+		<!-- slick css -->
+		<link rel="stylesheet" href="css/slick.css">
+		<!-- lightbox css -->
+		<link rel="stylesheet" href="css/lightbox.min.css">
+		<!-- material-design-iconic-font css -->
+		<link rel="stylesheet" href="css/material-design-iconic-font.css">
+		<!-- All common css of theme -->
+		<link rel="stylesheet" href="css/default.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+        <!-- shortcode css -->
+        <link rel="stylesheet" href="css/shortcode.css">
+		<!-- responsive css -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr css -->
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+		<style>
+		
+			.contenedor-responsivo {
+			    position: relative;
+			    overflow: hidden;
+			    padding-top: 56.25%;
+			}
+			.iframe-responsivo {
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    border: 0;
+			}	
+
+			.ct{
+				padding: 0 100px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 10px;
+			}
+
+			@media (max-width: 720px){
+				.ct{
+					padding: 0;
+					display: block;
+					margin-bottom: 10px;
+					text-align: center;
+				}
+
+				.ct>*{
+					margin-top:3px;
+					margin-bottom:3px;
+				}
+
+				.ct form .form-inline{
+					display: flex;
+					flex: 1;
+					align-content: center;
+				}
+
+				.ct form .form-inline button{
+					margin-bottom: 10px;
+				}
+
+			}  
+		</style>
+		<style>
+		    .google-maps {
+		        position: relative;
+		        padding-bottom: 90%;
+		        height: 0;
+		        overflow: hidden;
+		    }
+		    .google-maps iframe {
+		        position: absolute;
+		        top: 0;
+		        left: 0;
+		        width: 100% !important;
+		        height: 100% !important;
+		    }
+		</style>
+	</head>
+	<body>
+		<!-- WRAPPER START -->
+		<div class="wrapper">
+
+			<!-- Mobile-header-top Start -->
+			
+			<!-- Mobile-header-top End -->
+			<!-- HEADER-AREA START -->
+			<!-- HEADER-AREA START -->
+			
+			<div class="section group ct">
+				<div class="col-xs-12 col-lg-4">
+				<img src="img/logo/logo01.png">
+				</div>
+				<div class="col-xs-12 col-lg-4">
+				<form action="#">
+					<div class="form-inline">
+					<input type="text" class="form-control" style="border-radius: 25px" placeholder="Buscar..."/>
+					<button type="submit"><i class="zmdi zmdi-search align-self-top" style="color: #b0c951"></i></button>
+					</div>
+
+				</form>
+				</div>
+				<div class="col-xs-12 col-lg-4">
+				<i class="zmdi zmdi-email" style="color: #b0c951"></i> ventas@fortinagropecuaria.com.ar
+				</div>
+			</div>
+		
+				
+
+				<!-- <div class="header">
+				  <a href="#default" class="logo"><img src="img/logo/logo.png"></a>
+				  
+				  <div class="header-center">
+				    <div class="error-form mt-30 mb-30">
+						<form action="#">
+							<input type="text" style="border-radius: 25px" placeholder="Buscar..."/>
+							<button type="submit"><i class="zmdi zmdi-search"></i></button>
+						</form>
+					</div>
+				  </div>
+				  
+				  <div class="header-right">
+				    <i class="zmdi zmdi-mail" style="color: #b0c951"></i> ventas@fortinagropecuaria.com.ar
+				  </div>
+				</div> -->
+				<!-- MAIN-MENU END -->
+			
+			<!-- HEADER-AREA END -->
+			<!-- Mobile-menu start -->
+			
+			<!-- Mobile-menu end -->
+			<!-- SLIDER-BANNER-AREA START -->
+			<section class="slider-banner-area clearfix">
+				<!-- Sidebar-social-media start -->
+				
+				<!-- Sidebar-social-media start -->
+				<div class="banner-left floatleft">
+					<!-- Slider-banner start -->
+
+					<div class="slider-banner">
+						<div class="google-maps">
+							<iframe width="560" height="315" class="iframe-responsivo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8255151298035!2d-58.92431948439282!3d-34.456576857235326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc832c9f974c1b%3A0x963bee59c65ecdf4!2sEstanislao+L%C3%B3pez+1138%2C+B1629GVV+Pilar+Centro%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1565965685786!5m2!1ses-419!2sar" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<!-- Slider-banner end -->
+				</div>
+				<div class="slider-right floatleft">
+					<!-- Slider-area start -->
+					<div class="slider-area">
+						<div class="bend niceties preview-2">
+							<div id="ensign-nivoslider" class="slides">
+								<img src="img/slider/slider-1/1a.jpg" alt="" title="#slider-direction-1"  />
+								<img src="img/slider/slider-1/2a.jpg" alt="" title="#slider-direction-2"  />
+								<img src="img/slider/slider-1/3a.jpg" alt="" title="#slider-direction-3"  />
+							</div>
+							<!-- direction 1 -->
+							<div id="slider-direction-1" class="t-cn slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1 text-center"  style="background-color: black; padding: 5px 10px; margin: 30px">
+											<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+												<h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">LUNES A VIERNES</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 18 HS</h3>
+												<br>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">SABADO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 13 HS</h3>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<!-- direction 2 -->
+							<div id="slider-direction-1" class="t-cn slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1 text-center"  style="background-color: black; padding: 5px 10px; margin: 30px">
+											<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+												<h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">LUNES A VIERNES</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 18 HS</h3>
+												<br>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">SABADO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 13 HS</h3>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- direction 3 -->
+							<div id="slider-direction-1" class="t-cn slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1 text-center"  style="background-color: black; padding: 5px 10px; margin: 30px">
+											<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+												<h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">LUNES A VIERNES</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 18 HS</h3>
+												<br>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">SABADO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 13 HS</h3>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Slider-area end -->
+				</div>
+			
+			</section>
+			<!-- End Slider-section -->
+
+			<hr>
+
+			<div class="elements-accordions  pt-80 pb-80">
+				<div class="container" style="padding: 0px; width: 87%">
+
+					<div class="row">
+						<div class="col-sm-4 col-xs-12">
+							<div class="accordion-6" id="accordion6" >
+								<!-- 1 -->
+								<div class="panel">
+
+									<!-- Slider-banner start -->
+									<table>
+										<thead>
+										<tr>
+										<tbody>
+										<tr>
+											<td><img src="img/clientes/cliente001.jpg"></td>
+											<td><img src="img/clientes/cliente002.jpg"></td>
+										</tr>
+										<tr>
+											<td><img src="img/clientes/cliente03.png"></td>
+											<td><img src="img/clientes/cliente04.png"></td>
+										</tr>
+										<tr>
+											<td><img src="img/clientes/cliente05.png"></td>
+											<td><img src="img/clientes/cliente06.png"></td>
+										</tr>
+										</tbody>
+									</table>
+									<!-- Slider-banner end -->
+
+								</div>
+
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="accordion-7" id="accordion7" >
+								<!-- 1 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											AGROQUIMICOS
+										</a>
+									</div>
+								</div>
+								<!-- 2 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											FERTILIZANTES
+										</a>
+									</div>
+								</div>
+
+								<!-- 3 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											SEMILLAS
+										</a>
+									</div>
+								</div>
+
+								<!-- 4 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											HERRAMIENTAS
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="accordion-8" id="accordion8" >
+								<!-- 1 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											HORTICULTURA
+										</a>
+									</div>
+								</div>
+								<!-- 2 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											POLO
+										</a>
+									</div>
+								</div>
+
+								<!-- 3 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											GOLF
+										</a>
+									</div>
+								</div>
+
+								<!-- 4 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											JARDINES / ESPACIOS VERDES
+										</a>
+									</div>
+								</div>
+
+								<!-- 5 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											CONTROL DE PLAGAS
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- PRODUCT-AREA END -->		
+
+			<hr>	
+			<!-- FOOTER START -->
+			<footer>
+				<!-- Footer-area start -->
+				<div class="footer-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">INFORMACION</h3>
+									<ul class="footer-contact">
+										<li><span>Dirección :</span>Estanislao López 1138, B1629<br>Ex Ruta 8 - Pilar, Buenos Aires</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">HORARIOS</h3>
+									<ul class="footer-menu">
+										<li>Lunes a Viernes de 8 a 18</li>
+										<li>Sabados de 8 a 13hs</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 hidden-sm col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">CONTACTANOS</h3>
+									<ul class="footer-contact">
+										<li><span>Nextel :</span>705*69</li>
+										<li><span>Celular :</span>011-15-66060977</li>
+										<li><span>Teléfono :</span>02304-430150</li>
+										<li><span>Email :</span>ventas@fortinagropecuaria.com.ar</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="copyright">
+									<p class="mb-0">&copy; <a href="#" target="_blank"> Fortinagropecuaria.com.ar  </a> 2019. @ By Verticedigital & Cuartocreativo.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Footer-area end -->
+				
+			</footer>
+
+			
+			<!-- FOOTER END -->
+			<!-- QUICKVIEW PRODUCT -->
+			
+
+		</div>
+		<!-- WRAPPER END -->
+		<!-- WhatsHelp.io widget -->
+				<script type="text/javascript">
+				    (function () {
+				        var options = {
+				            whatsapp: "+54 91151321300", // WhatsApp number
+				            call_to_action: "Envianos un mensaje!!!", // Call to action
+				            position: "right", // Position may be 'right' or 'left'
+				        };
+				        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+				        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+				        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+				        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+				    })();
+				</script>
+				<!-- /WhatsHelp.io widget -->
+		<!-- all js here -->
+		<!-- jquery latest version -->
+		<script src="js/vendor/jquery-1.12.0.min.js"></script>
+		<!-- bootstrap js -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- jquery.meanmenu js -->
+		<script src="js/jquery.meanmenu.js"></script>
+		<!-- slick.min js -->
+		<script src="js/slick.min.js"></script>
+		<!-- jquery.treeview js -->
+		<script src="js/jquery.treeview.js"></script>
+		<!-- lightbox.min js -->
+		<script src="js/lightbox.min.js"></script>
+		<!-- jquery-ui js -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- jquery.nivo.slider js -->
+		<script src="lib/js/jquery.nivo.slider.js"></script>
+		<script src="lib/home.js"></script>
+		<!-- jquery.nicescroll.min js -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- countdon.min js -->
+		<script src="js/countdon.min.js"></script>
+		<!-- wow js -->
+		<script src="js/wow.min.js"></script>
+		<!-- plugins js -->
+		<script src="js/plugins.js"></script>
+		<!-- main js -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
+";s:5:"mtime";i:1574520798;s:6:"markup";s:16844:"<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>El Fortin || Agropecuaria</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<!-- Place favicon.ico in the root directory -->
+
+		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+		<!-- all css here -->
+
+		<!-- bootstrap v3.3.6 css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- animate css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- jquery-ui.min css -->
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<!-- meanmenu css -->
+		<link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- nivo-slider css -->
+		<link rel="stylesheet" href="lib/css/nivo-slider.css">
+		<link rel="stylesheet" href="lib/css/preview.css">
+		<!-- slick css -->
+		<link rel="stylesheet" href="css/slick.css">
+		<!-- lightbox css -->
+		<link rel="stylesheet" href="css/lightbox.min.css">
+		<!-- material-design-iconic-font css -->
+		<link rel="stylesheet" href="css/material-design-iconic-font.css">
+		<!-- All common css of theme -->
+		<link rel="stylesheet" href="css/default.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+        <!-- shortcode css -->
+        <link rel="stylesheet" href="css/shortcode.css">
+		<!-- responsive css -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr css -->
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+		<style>
+		
+			.contenedor-responsivo {
+			    position: relative;
+			    overflow: hidden;
+			    padding-top: 56.25%;
+			}
+			.iframe-responsivo {
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    border: 0;
+			}	
+
+			.ct{
+				padding: 0 100px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 10px;
+			}
+
+			@media (max-width: 720px){
+				.ct{
+					padding: 0;
+					display: block;
+					margin-bottom: 10px;
+					text-align: center;
+				}
+
+				.ct>*{
+					margin-top:3px;
+					margin-bottom:3px;
+				}
+
+				.ct form .form-inline{
+					display: flex;
+					flex: 1;
+					align-content: center;
+				}
+
+				.ct form .form-inline button{
+					margin-bottom: 10px;
+				}
+
+			}  
+		</style>
+		<style>
+		    .google-maps {
+		        position: relative;
+		        padding-bottom: 90%;
+		        height: 0;
+		        overflow: hidden;
+		    }
+		    .google-maps iframe {
+		        position: absolute;
+		        top: 0;
+		        left: 0;
+		        width: 100% !important;
+		        height: 100% !important;
+		    }
+		</style>
+	</head>
+	<body>
+		<!-- WRAPPER START -->
+		<div class="wrapper">
+
+			<!-- Mobile-header-top Start -->
+			
+			<!-- Mobile-header-top End -->
+			<!-- HEADER-AREA START -->
+			<!-- HEADER-AREA START -->
+			
+			<div class="section group ct">
+				<div class="col-xs-12 col-lg-4">
+				<img src="img/logo/logo01.png">
+				</div>
+				<div class="col-xs-12 col-lg-4">
+				<form action="#">
+					<div class="form-inline">
+					<input type="text" class="form-control" style="border-radius: 25px" placeholder="Buscar..."/>
+					<button type="submit"><i class="zmdi zmdi-search align-self-top" style="color: #b0c951"></i></button>
+					</div>
+
+				</form>
+				</div>
+				<div class="col-xs-12 col-lg-4">
+				<i class="zmdi zmdi-email" style="color: #b0c951"></i> ventas@fortinagropecuaria.com.ar
+				</div>
+			</div>
+		
+				
+
+				<!-- <div class="header">
+				  <a href="#default" class="logo"><img src="img/logo/logo.png"></a>
+				  
+				  <div class="header-center">
+				    <div class="error-form mt-30 mb-30">
+						<form action="#">
+							<input type="text" style="border-radius: 25px" placeholder="Buscar..."/>
+							<button type="submit"><i class="zmdi zmdi-search"></i></button>
+						</form>
+					</div>
+				  </div>
+				  
+				  <div class="header-right">
+				    <i class="zmdi zmdi-mail" style="color: #b0c951"></i> ventas@fortinagropecuaria.com.ar
+				  </div>
+				</div> -->
+				<!-- MAIN-MENU END -->
+			
+			<!-- HEADER-AREA END -->
+			<!-- Mobile-menu start -->
+			
+			<!-- Mobile-menu end -->
+			<!-- SLIDER-BANNER-AREA START -->
+			<section class="slider-banner-area clearfix">
+				<!-- Sidebar-social-media start -->
+				
+				<!-- Sidebar-social-media start -->
+				<div class="banner-left floatleft">
+					<!-- Slider-banner start -->
+
+					<div class="slider-banner">
+						<div class="google-maps">
+							<iframe width="560" height="315" class="iframe-responsivo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8255151298035!2d-58.92431948439282!3d-34.456576857235326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc832c9f974c1b%3A0x963bee59c65ecdf4!2sEstanislao+L%C3%B3pez+1138%2C+B1629GVV+Pilar+Centro%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1565965685786!5m2!1ses-419!2sar" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<!-- Slider-banner end -->
+				</div>
+				<div class="slider-right floatleft">
+					<!-- Slider-area start -->
+					<div class="slider-area">
+						<div class="bend niceties preview-2">
+							<div id="ensign-nivoslider" class="slides">
+								<img src="img/slider/slider-1/1a.jpg" alt="" title="#slider-direction-1"  />
+								<img src="img/slider/slider-1/2a.jpg" alt="" title="#slider-direction-2"  />
+								<img src="img/slider/slider-1/3a.jpg" alt="" title="#slider-direction-3"  />
+							</div>
+							<!-- direction 1 -->
+							<div id="slider-direction-1" class="t-cn slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1 text-center"  style="background-color: black; padding: 5px 10px; margin: 30px">
+											<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+												<h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">LUNES A VIERNES</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 18 HS</h3>
+												<br>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">SABADO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 13 HS</h3>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<!-- direction 2 -->
+							<div id="slider-direction-1" class="t-cn slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1 text-center"  style="background-color: black; padding: 5px 10px; margin: 30px">
+											<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+												<h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">LUNES A VIERNES</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 18 HS</h3>
+												<br>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">SABADO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 13 HS</h3>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- direction 3 -->
+							<div id="slider-direction-1" class="t-cn slider-direction">
+								<div class="slider-progress"></div>
+								<div class="slider-content t-lfl s-tb slider-1">
+									<div class="title-container s-tb-c title-compress">
+										<div class="layer-1 text-center"  style="background-color: black; padding: 5px 10px; margin: 30px">
+											<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+												<h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
+												<h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+											</div>
+											<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">LUNES A VIERNES</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 18 HS</h3>
+												<br>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">SABADO</h3>
+												<h5 class="slider-title4 text-uppercase" style="color: #ffffff">8 A 13 HS</h3>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Slider-area end -->
+				</div>
+			
+			</section>
+			<!-- End Slider-section -->
+
+			<hr>
+
+			<div class="elements-accordions  pt-80 pb-80">
+				<div class="container" style="padding: 0px; width: 87%">
+
+					<div class="row">
+						<div class="col-sm-4 col-xs-12">
+							<div class="accordion-6" id="accordion6" >
+								<!-- 1 -->
+								<div class="panel">
+
+									<!-- Slider-banner start -->
+									<table>
+										<thead>
+										<tr>
+										<tbody>
+										<tr>
+											<td><img src="img/clientes/cliente001.jpg"></td>
+											<td><img src="img/clientes/cliente002.jpg"></td>
+										</tr>
+										<tr>
+											<td><img src="img/clientes/cliente03.png"></td>
+											<td><img src="img/clientes/cliente04.png"></td>
+										</tr>
+										<tr>
+											<td><img src="img/clientes/cliente05.png"></td>
+											<td><img src="img/clientes/cliente06.png"></td>
+										</tr>
+										</tbody>
+									</table>
+									<!-- Slider-banner end -->
+
+								</div>
+
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="accordion-7" id="accordion7" >
+								<!-- 1 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											AGROQUIMICOS
+										</a>
+									</div>
+								</div>
+								<!-- 2 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											FERTILIZANTES
+										</a>
+									</div>
+								</div>
+
+								<!-- 3 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											SEMILLAS
+										</a>
+									</div>
+								</div>
+
+								<!-- 4 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											HERRAMIENTAS
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="accordion-8" id="accordion8" >
+								<!-- 1 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											HORTICULTURA
+										</a>
+									</div>
+								</div>
+								<!-- 2 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											POLO
+										</a>
+									</div>
+								</div>
+
+								<!-- 3 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											GOLF
+										</a>
+									</div>
+								</div>
+
+								<!-- 4 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											JARDINES / ESPACIOS VERDES
+										</a>
+									</div>
+								</div>
+
+								<!-- 5 -->
+								<div class="panel">
+									<div class="accordion-title">
+										<a  data-toggle="collapse" href="#accor-content-70"  >
+											CONTROL DE PLAGAS
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- PRODUCT-AREA END -->		
+
+			<hr>	
+			<!-- FOOTER START -->
+			<footer>
+				<!-- Footer-area start -->
+				<div class="footer-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">INFORMACION</h3>
+									<ul class="footer-contact">
+										<li><span>Dirección :</span>Estanislao López 1138, B1629<br>Ex Ruta 8 - Pilar, Buenos Aires</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">HORARIOS</h3>
+									<ul class="footer-menu">
+										<li>Lunes a Viernes de 8 a 18</li>
+										<li>Sabados de 8 a 13hs</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 hidden-sm col-xs-12">
+								<div class="single-footer">
+									<h3 class="footer-title  title-border">CONTACTANOS</h3>
+									<ul class="footer-contact">
+										<li><span>Nextel :</span>705*69</li>
+										<li><span>Celular :</span>011-15-66060977</li>
+										<li><span>Teléfono :</span>02304-430150</li>
+										<li><span>Email :</span>ventas@fortinagropecuaria.com.ar</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<div class="copyright">
+									<p class="mb-0">&copy; <a href="#" target="_blank"> Fortinagropecuaria.com.ar  </a> 2019. @ By Verticedigital & Cuartocreativo.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Footer-area end -->
+				
+			</footer>
+
+			
+			<!-- FOOTER END -->
+			<!-- QUICKVIEW PRODUCT -->
+			
+
+		</div>
+		<!-- WRAPPER END -->
+		<!-- WhatsHelp.io widget -->
+				<script type="text/javascript">
+				    (function () {
+				        var options = {
+				            whatsapp: "+54 91151321300", // WhatsApp number
+				            call_to_action: "Envianos un mensaje!!!", // Call to action
+				            position: "right", // Position may be 'right' or 'left'
+				        };
+				        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+				        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+				        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+				        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+				    })();
+				</script>
+				<!-- /WhatsHelp.io widget -->
+		<!-- all js here -->
+		<!-- jquery latest version -->
+		<script src="js/vendor/jquery-1.12.0.min.js"></script>
+		<!-- bootstrap js -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- jquery.meanmenu js -->
+		<script src="js/jquery.meanmenu.js"></script>
+		<!-- slick.min js -->
+		<script src="js/slick.min.js"></script>
+		<!-- jquery.treeview js -->
+		<script src="js/jquery.treeview.js"></script>
+		<!-- lightbox.min js -->
+		<script src="js/lightbox.min.js"></script>
+		<!-- jquery-ui js -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- jquery.nivo.slider js -->
+		<script src="lib/js/jquery.nivo.slider.js"></script>
+		<script src="lib/home.js"></script>
+		<!-- jquery.nicescroll.min js -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- countdon.min js -->
+		<script src="js/countdon.min.js"></script>
+		<!-- wow js -->
+		<script src="js/wow.min.js"></script>
+		<!-- plugins js -->
+		<script src="js/plugins.js"></script>
+		<!-- main js -->
+		<script src="js/main.js"></script>
+	</body>
+</html>";s:4:"code";N;}}
