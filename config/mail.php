@@ -55,7 +55,10 @@ return [
     |
     */
 
-    'from' => ['address' => 'f5aa3b32b4-49e2ea@inbox.mailtrap.io', 'name' => 'OctoberCMS'],
+    'from' => [
+        'address' => env('MAIL_FROM_ADDRESS', 'f5aa3b32b4-49e2ea@inbox.mailtrap.io'),
+        'name' => env('MAIL_FROM_NAME', 'elfortinAgropecuaria'),
+    ],
 
     /*
     |--------------------------------------------------------------------------
