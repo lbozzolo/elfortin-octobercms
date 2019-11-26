@@ -72,6 +72,8 @@ class Productos extends ComponentBase
         if ($this->property('sortOrder') == 'id desc')
             $query->orderBy('id', 'desc');
 
+        //dd($query->paginate($perPage));
+
         return $query->paginate($perPage);
     }
 
