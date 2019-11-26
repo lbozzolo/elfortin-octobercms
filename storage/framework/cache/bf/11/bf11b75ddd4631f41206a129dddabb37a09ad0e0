@@ -1,4 +1,5 @@
-1574764362a:1:{s:13:"productos.htm";a:11:{s:8:"fileName";s:13:"productos.htm";s:7:"content";s:5565:"title = "Productos"
+1574766524a:1:{s:13:"productos.htm";a:11:{s:8:"fileName";s:13:"productos.htm";s:7:"content";s:5531:"
+title = "Productos"
 url = "/productos/:page?"
 layout = "main"
 is_hidden = 0
@@ -18,6 +19,7 @@ sortColumn = "id"
 
 [siteSearchInclude]
 ==
+
 {% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
 {% set noRecordsMessage = builderList.noRecordsMessage %}
@@ -52,7 +54,7 @@ sortColumn = "id"
                                 <!-- Single-product start -->
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="single-product.html">
+                                        <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}">
                                             {% if(record.poster) %}
                                             <img src="{{ record.poster.thumb(150,150, {'mode' : 'crop'}) }}" alt="" />
                                             {% else %}
@@ -122,7 +124,8 @@ sortColumn = "id"
             </div>
         </div>
     </div>
-</div>";s:5:"mtime";i:1574716066;s:6:"markup";s:5140:"{% set records = builderList.records %}
+</div>
+";s:5:"mtime";i:1574764444;s:6:"markup";s:5103:"{% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
 {% set noRecordsMessage = builderList.noRecordsMessage %}
 {% set detailsPage = builderList.detailsPage %}
@@ -156,7 +159,7 @@ sortColumn = "id"
                                 <!-- Single-product start -->
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="single-product.html">
+                                        <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}">
                                             {% if(record.poster) %}
                                             <img src="{{ record.poster.thumb(150,150, {'mode' : 'crop'}) }}" alt="" />
                                             {% else %}

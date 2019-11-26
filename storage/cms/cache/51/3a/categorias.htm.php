@@ -1,5 +1,5 @@
 <?php 
-class Cms5dda89d47100e518259835_6aaaa420cd244502983a7bac62abcc44Class extends Cms\Classes\PageCode
+class Cms5ddd00bce224c748140460_6476e6d7401ad4af87ed75218c2f4b5aClass extends Cms\Classes\PageCode
 {
 public function onStart(){
         $this['basePath'] = Illuminate\Support\Facades\URL::to('/producto');

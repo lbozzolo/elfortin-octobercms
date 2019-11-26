@@ -1,4 +1,3 @@
-
 title = "Productos"
 url = "/productos/:page?"
 layout = "main"
@@ -13,13 +12,12 @@ noRecordsMessage = "No hay ningún producto para mostrar"
 detailsPage = "producto"
 detailsKeyColumn = "id"
 detailsUrlParameter = "id"
-recordsPerPage = 2
+recordsPerPage = 15
 pageNumber = "{{ :page }}"
 sortColumn = "id"
 
 [siteSearchInclude]
 ==
-
 {% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
 {% set noRecordsMessage = builderList.noRecordsMessage %}
