@@ -1,4 +1,4 @@
-1574680015a:1:{s:13:"productos.htm";a:11:{s:8:"fileName";s:13:"productos.htm";s:7:"content";s:5547:"title = "Productos"
+1574764362a:1:{s:13:"productos.htm";a:11:{s:8:"fileName";s:13:"productos.htm";s:7:"content";s:5565:"title = "Productos"
 url = "/productos/:page?"
 layout = "main"
 is_hidden = 0
@@ -14,6 +14,7 @@ detailsKeyColumn = "id"
 detailsUrlParameter = "id"
 recordsPerPage = 2
 pageNumber = "{{ :page }}"
+sortColumn = "id"
 
 [siteSearchInclude]
 ==
@@ -121,7 +122,7 @@ pageNumber = "{{ :page }}"
             </div>
         </div>
     </div>
-</div>";s:5:"mtime";i:1574520798;s:6:"markup";s:5140:"{% set records = builderList.records %}
+</div>";s:5:"mtime";i:1574716066;s:6:"markup";s:5140:"{% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
 {% set noRecordsMessage = builderList.noRecordsMessage %}
 {% set detailsPage = builderList.detailsPage %}
@@ -225,4 +226,4 @@ pageNumber = "{{ :page }}"
             </div>
         </div>
     </div>
-</div>";s:4:"code";N;s:5:"title";s:9:"Productos";s:3:"url";s:17:"/productos/:page?";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:10:{s:10:"modelClass";s:33:"Vertice\Productos\Models\Producto";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"name";s:16:"noRecordsMessage";s:36:"No hay ningún producto para mostrar";s:11:"detailsPage";s:8:"producto";s:16:"detailsKeyColumn";s:2:"id";s:19:"detailsUrlParameter";s:2:"id";s:14:"recordsPerPage";s:1:"2";s:10:"pageNumber";s:11:"{{ :page }}";}s:17:"siteSearchInclude";a:0:{}}}
+</div>";s:4:"code";N;s:5:"title";s:9:"Productos";s:3:"url";s:17:"/productos/:page?";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:11:{s:10:"modelClass";s:33:"Vertice\Productos\Models\Producto";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"name";s:16:"noRecordsMessage";s:36:"No hay ningún producto para mostrar";s:11:"detailsPage";s:8:"producto";s:16:"detailsKeyColumn";s:2:"id";s:19:"detailsUrlParameter";s:2:"id";s:14:"recordsPerPage";s:1:"2";s:10:"pageNumber";s:11:"{{ :page }}";s:10:"sortColumn";s:2:"id";}s:17:"siteSearchInclude";a:0:{}}}

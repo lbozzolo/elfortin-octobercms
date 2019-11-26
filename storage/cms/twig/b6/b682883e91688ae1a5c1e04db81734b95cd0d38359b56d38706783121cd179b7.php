@@ -110,36 +110,35 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
             echo " - ";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "laboratorio", [], "any", false, false, false, 39), "name", [], "any", false, false, false, 39), "html", null, true);
             echo "</h4>
-                            <!--<span class=\"pro-rating floatright\">-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star-half\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star-half\"></i></a>-->
-                                <!--<span>( 27 Rating )</span>-->
-                            <!--</span>-->
                         </div>
                         <div class=\"fix mb-20\">
                             <span class=\"pro-price\">\$ ";
-            // line 50
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "price", [], "any", false, false, false, 50), "html", null, true);
+            // line 42
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "price", [], "any", false, false, false, 42), "html", null, true);
             echo "</span>
                         </div>
                         <ul class=\"list-inline\">
                             <li class=\"list-group-item text-center\"><small>Principio Activo</small> <br> <span>";
-            // line 53
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "principio", [], "any", false, false, false, 53), "name", [], "any", false, false, false, 53), "html", null, true);
+            // line 45
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "principio", [], "any", false, false, false, 45), "name", [], "any", false, false, false, 45), "html", null, true);
             echo "</span></li>
                             <li class=\"list-group-item text-center\"><small>Presentación</small> <br> <span>";
-            // line 54
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "presentacion", [], "any", false, false, false, 54), "html", null, true);
+            // line 46
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "presentacion", [], "any", false, false, false, 46), "html", null, true);
             echo "</span></li>
                         </ul>
 
                         <div class=\"product-description\">
                             <p>";
-            // line 58
-            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "description", [], "any", false, false, false, 58);
+            // line 50
+            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "description", [], "any", false, false, false, 50);
+            echo "</p>
+                        </div>
+
+                        <div class=\"product-description\">
+                            <p>";
+            // line 54
+            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "caracteristicas", [], "any", false, false, false, 54);
             echo "</p>
                         </div>
                         <!-- color start -->
@@ -154,22 +153,22 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
 
                             <div>
                                 <img src=\"";
-            // line 71
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "poster", [], "any", false, false, false, 71), "thumb", [0 => 150, 1 => 150, 2 => ["mode" => "crop"]], "method", false, false, false, 71), "html", null, true);
+            // line 67
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "poster", [], "any", false, false, false, 67), "thumb", [0 => 150, 1 => 150, 2 => ["mode" => "crop"]], "method", false, false, false, 67), "html", null, true);
             echo "\" alt=\"\" />
                             </div>
 
                             ";
-            // line 74
+            // line 70
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "product_gallery", [], "any", false, false, false, 74));
+            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "product_gallery", [], "any", false, false, false, 70));
             foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
-                // line 75
+                // line 71
                 echo "
                                 <div>
                                     <img src=\"";
-                // line 77
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "thumb", [0 => 150, 1 => 150, 2 => ["mode" => "crop"]], "method", false, false, false, 77), "html", null, true);
+                // line 73
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "thumb", [0 => 150, 1 => 150, 2 => ["mode" => "crop"]], "method", false, false, false, 73), "html", null, true);
                 echo "\" alt=\"\" />
                                 </div>
 
@@ -178,7 +177,7 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 81
+            // line 77
             echo "
                         </div>
                         <!-- Single-pro-slider Small-photo end -->
@@ -201,17 +200,51 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
                             <div class=\"pro-tab-info pro-reviews\">
 
                                 <div class=\"leave-review\">
+
+
+                                    <div class=\"card bg-danger mb-20\" style=\"border-radius: 5px\" id=\"result\"></div>
+
+
                                     <h3 class=\"tab-title title-border mb-30\">Solicitar cotización</h3>
 
                                     <div class=\"reply-box\">
 
                                     ";
-            // line 107
-            $context['__cms_component_params'] = [];
-            echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("cotizacionform"            , $context['__cms_component_params']            );
-            unset($context['__cms_component_params']);
             // line 108
+            $context["producto"] = twig_get_attribute($this->env, $this->source, ($context["cotizacionform"] ?? null), "record", [], "any", false, false, false, 108);
+            // line 109
             echo "
+                                    <form data-request=\"onSend\">
+                                        <input type=\"hidden\" name=\"producto_id\" value=\"";
+            // line 111
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "id", [], "any", false, false, false, 111), "html", null, true);
+            echo "\">
+                                        <div class=\"row\">
+                                            <div class=\"col-md-6\">
+                                                <input type=\"text\" placeholder=\"Su nombre aquí...\" name=\"name\" />
+                                            </div>
+                                            <div class=\"col-md-6\">
+                                                <input type=\"text\" placeholder=\"Email...\" name=\"email\" />
+                                            </div>
+                                        </div>
+                                        <div class=\"row\">
+                                            <div class=\"col-md-12\">
+                                                <label>Comentario</label>
+                                                <textarea class=\"custom-textarea\" name=\"message\" placeholder=\"\" ></textarea>
+                                                
+                                                <!--";
+            // line 125
+            $context['__cms_component_params'] = [];
+            echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("captcha"            , $context['__cms_component_params']            );
+            unset($context['__cms_component_params']);
+            echo "-->
+                                                
+                                                <button type=\"submit\" data-text=\"Cotizar\" class=\"button-one submit-button mt-20\">Enviar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </form>
+
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +262,7 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
 
 ";
         } else {
-            // line 125
+            // line 149
             echo "    ";
             echo twig_escape_filter($this->env, ($context["notFoundMessage"] ?? null), "html", null, true);
             echo "
@@ -249,7 +282,7 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
 
     public function getDebugInfo()
     {
-        return array (  233 => 125,  214 => 108,  210 => 107,  182 => 81,  172 => 77,  168 => 75,  164 => 74,  158 => 71,  142 => 58,  135 => 54,  131 => 53,  125 => 50,  109 => 39,  102 => 34,  88 => 28,  84 => 27,  80 => 25,  76 => 24,  67 => 20,  63 => 19,  50 => 8,  48 => 7,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  266 => 149,  237 => 125,  220 => 111,  216 => 109,  214 => 108,  181 => 77,  171 => 73,  167 => 71,  163 => 70,  157 => 67,  141 => 54,  134 => 50,  127 => 46,  123 => 45,  117 => 42,  109 => 39,  102 => 34,  88 => 28,  84 => 27,  80 => 25,  76 => 24,  67 => 20,  63 => 19,  50 => 8,  48 => 7,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -293,14 +326,6 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
                     <div class=\"product-info\">
                         <div class=\"fix\">
                             <h4 class=\"post-title floatleft\">{{ attribute(record, displayColumn) }} - {{ record.laboratorio.name }}</h4>
-                            <!--<span class=\"pro-rating floatright\">-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star-half\"></i></a>-->
-                                <!--<a href=\"#\"><i class=\"zmdi zmdi-star-half\"></i></a>-->
-                                <!--<span>( 27 Rating )</span>-->
-                            <!--</span>-->
                         </div>
                         <div class=\"fix mb-20\">
                             <span class=\"pro-price\">\$ {{ record.price }}</span>
@@ -312,6 +337,10 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
 
                         <div class=\"product-description\">
                             <p>{{ record.description|raw }}</p>
+                        </div>
+
+                        <div class=\"product-description\">
+                            <p>{{ record.caracteristicas|raw }}</p>
                         </div>
                         <!-- color start -->
 
@@ -356,11 +385,39 @@ class __TwigTemplate_a04d383d7523ab945cffafe9743c03f2b0108e28e7cbe11c9235535ba26
                             <div class=\"pro-tab-info pro-reviews\">
 
                                 <div class=\"leave-review\">
+
+
+                                    <div class=\"card bg-danger mb-20\" style=\"border-radius: 5px\" id=\"result\"></div>
+
+
                                     <h3 class=\"tab-title title-border mb-30\">Solicitar cotización</h3>
 
                                     <div class=\"reply-box\">
 
-                                    {% component 'cotizacionform' %}
+                                    {% set producto = cotizacionform.record %}
+
+                                    <form data-request=\"onSend\">
+                                        <input type=\"hidden\" name=\"producto_id\" value=\"{{ record.id }}\">
+                                        <div class=\"row\">
+                                            <div class=\"col-md-6\">
+                                                <input type=\"text\" placeholder=\"Su nombre aquí...\" name=\"name\" />
+                                            </div>
+                                            <div class=\"col-md-6\">
+                                                <input type=\"text\" placeholder=\"Email...\" name=\"email\" />
+                                            </div>
+                                        </div>
+                                        <div class=\"row\">
+                                            <div class=\"col-md-12\">
+                                                <label>Comentario</label>
+                                                <textarea class=\"custom-textarea\" name=\"message\" placeholder=\"\" ></textarea>
+                                                
+                                                <!--{% component 'captcha' %}-->
+                                                
+                                                <button type=\"submit\" data-text=\"Cotizar\" class=\"button-one submit-button mt-20\">Enviar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </form>
 
                                     </div>
                                 </div>

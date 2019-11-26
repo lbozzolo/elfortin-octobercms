@@ -1,4 +1,4 @@
-1574680015a:1:{s:12:"producto.htm";a:11:{s:8:"fileName";s:12:"producto.htm";s:7:"content";s:5692:"title = "Producto"
+1574764362a:1:{s:12:"producto.htm";a:12:{s:8:"fileName";s:12:"producto.htm";s:7:"content";s:6969:"title = "Producto"
 url = "/producto/:id"
 layout = "main"
 is_hidden = 0
@@ -11,6 +11,8 @@ displayColumn = "name"
 notFoundMessage = "Producto no encontrado"
 
 [cotizacionform]
+
+[captcha]
 ==
 {% set record = builderDetails.record %}
 {% set displayColumn = builderDetails.displayColumn %}
@@ -51,14 +53,6 @@ notFoundMessage = "Producto no encontrado"
                     <div class="product-info">
                         <div class="fix">
                             <h4 class="post-title floatleft">{{ attribute(record, displayColumn) }} - {{ record.laboratorio.name }}</h4>
-                            <!--<span class="pro-rating floatright">-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star-half"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star-half"></i></a>-->
-                                <!--<span>( 27 Rating )</span>-->
-                            <!--</span>-->
                         </div>
                         <div class="fix mb-20">
                             <span class="pro-price">$ {{ record.price }}</span>
@@ -70,6 +64,10 @@ notFoundMessage = "Producto no encontrado"
 
                         <div class="product-description">
                             <p>{{ record.description|raw }}</p>
+                        </div>
+
+                        <div class="product-description">
+                            <p>{{ record.caracteristicas|raw }}</p>
                         </div>
                         <!-- color start -->
 
@@ -114,11 +112,39 @@ notFoundMessage = "Producto no encontrado"
                             <div class="pro-tab-info pro-reviews">
 
                                 <div class="leave-review">
+
+
+                                    <div class="card bg-danger mb-20" style="border-radius: 5px" id="result"></div>
+
+
                                     <h3 class="tab-title title-border mb-30">Solicitar cotización</h3>
 
                                     <div class="reply-box">
 
-                                    {% component 'cotizacionform' %}
+                                    {% set producto = cotizacionform.record %}
+
+                                    <form data-request="onSend">
+                                        <input type="hidden" name="producto_id" value="{{ record.id }}">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input type="text" placeholder="Su nombre aquí..." name="name" />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" placeholder="Email..." name="email" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Comentario</label>
+                                                <textarea class="custom-textarea" name="message" placeholder="" ></textarea>
+                                                
+                                                <!--{% component 'captcha' %}-->
+                                                
+                                                <button type="submit" data-text="Cotizar" class="button-one submit-button mt-20">Enviar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </form>
 
                                     </div>
                                 </div>
@@ -137,7 +163,7 @@ notFoundMessage = "Producto no encontrado"
 
 {% else %}
     {{ notFoundMessage }}
-{% endif %}";s:5:"mtime";i:1574520798;s:6:"markup";s:5401:"{% set record = builderDetails.record %}
+{% endif %}";s:5:"mtime";i:1574717339;s:6:"markup";s:6665:"{% set record = builderDetails.record %}
 {% set displayColumn = builderDetails.displayColumn %}
 {% set notFoundMessage = builderDetails.notFoundMessage %}
 
@@ -176,14 +202,6 @@ notFoundMessage = "Producto no encontrado"
                     <div class="product-info">
                         <div class="fix">
                             <h4 class="post-title floatleft">{{ attribute(record, displayColumn) }} - {{ record.laboratorio.name }}</h4>
-                            <!--<span class="pro-rating floatright">-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star-half"></i></a>-->
-                                <!--<a href="#"><i class="zmdi zmdi-star-half"></i></a>-->
-                                <!--<span>( 27 Rating )</span>-->
-                            <!--</span>-->
                         </div>
                         <div class="fix mb-20">
                             <span class="pro-price">$ {{ record.price }}</span>
@@ -195,6 +213,10 @@ notFoundMessage = "Producto no encontrado"
 
                         <div class="product-description">
                             <p>{{ record.description|raw }}</p>
+                        </div>
+
+                        <div class="product-description">
+                            <p>{{ record.caracteristicas|raw }}</p>
                         </div>
                         <!-- color start -->
 
@@ -239,11 +261,39 @@ notFoundMessage = "Producto no encontrado"
                             <div class="pro-tab-info pro-reviews">
 
                                 <div class="leave-review">
+
+
+                                    <div class="card bg-danger mb-20" style="border-radius: 5px" id="result"></div>
+
+
                                     <h3 class="tab-title title-border mb-30">Solicitar cotización</h3>
 
                                     <div class="reply-box">
 
-                                    {% component 'cotizacionform' %}
+                                    {% set producto = cotizacionform.record %}
+
+                                    <form data-request="onSend">
+                                        <input type="hidden" name="producto_id" value="{{ record.id }}">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input type="text" placeholder="Su nombre aquí..." name="name" />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" placeholder="Email..." name="email" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Comentario</label>
+                                                <textarea class="custom-textarea" name="message" placeholder="" ></textarea>
+                                                
+                                                <!--{% component 'captcha' %}-->
+                                                
+                                                <button type="submit" data-text="Cotizar" class="button-one submit-button mt-20">Enviar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </form>
 
                                     </div>
                                 </div>
@@ -262,4 +312,4 @@ notFoundMessage = "Producto no encontrado"
 
 {% else %}
     {{ notFoundMessage }}
-{% endif %}";s:4:"code";N;s:5:"title";s:8:"Producto";s:3:"url";s:13:"/producto/:id";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";s:14:"builderDetails";a:5:{s:10:"modelClass";s:33:"Vertice\Productos\Models\Producto";s:15:"identifierValue";s:9:"{{ :id }}";s:14:"modelKeyColumn";s:2:"id";s:13:"displayColumn";s:4:"name";s:15:"notFoundMessage";s:22:"Producto no encontrado";}s:14:"cotizacionform";a:0:{}}}
+{% endif %}";s:4:"code";N;s:5:"title";s:8:"Producto";s:3:"url";s:13:"/producto/:id";s:6:"layout";s:4:"main";s:9:"is_hidden";s:1:"0";s:14:"builderDetails";a:5:{s:10:"modelClass";s:33:"Vertice\Productos\Models\Producto";s:15:"identifierValue";s:9:"{{ :id }}";s:14:"modelKeyColumn";s:2:"id";s:13:"displayColumn";s:4:"name";s:15:"notFoundMessage";s:22:"Producto no encontrado";}s:14:"cotizacionform";a:0:{}s:7:"captcha";a:0:{}}}

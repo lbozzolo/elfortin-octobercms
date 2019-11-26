@@ -37,7 +37,7 @@ class __TwigTemplate_13acdade67d36e1eba30e1cb5be559eb584eebd641e18ecd101a886e8b3
         echo "<script type=\"text/javascript\">
     (function () {
         var options = {
-            whatsapp: \"+54 91151321300\", // WhatsApp number
+            whatsapp: \"+54 91166060977\", // WhatsApp number
             call_to_action: \"Envianos un mensaje!!!\", // Call to action
             position: \"right\", // Position may be 'right' or 'left'
         };
@@ -153,7 +153,7 @@ class __TwigTemplate_13acdade67d36e1eba30e1cb5be559eb584eebd641e18ecd101a886e8b3
         return new Source("<script type=\"text/javascript\">
     (function () {
         var options = {
-            whatsapp: \"+54 91151321300\", // WhatsApp number
+            whatsapp: \"+54 91166060977\", // WhatsApp number
             call_to_action: \"Envianos un mensaje!!!\", // Call to action
             position: \"right\", // Position may be 'right' or 'left'
         };
