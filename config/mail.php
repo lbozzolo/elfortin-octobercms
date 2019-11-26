@@ -114,8 +114,8 @@ return [
 
     'to' => [
 
-        'address' => 'f5aa3b32b4-49e2ea@inbox.mailtrap.io',
-        'name' => 'Catch all mail'
+        'address' => env('MAIL_FROM_ADDRESS', 'f5aa3b32b4-49e2ea@inbox.mailtrap.io'),
+        'name' => 'El Fortín'
 
     ],
 
