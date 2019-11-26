@@ -51,7 +51,7 @@ pageNumber = "{{ :page }}"
                                 <!-- Single-product start -->
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="single-product.html">
+                                        <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}">
                                             {% if(record.poster) %}
                                             <img src="{{ record.poster.thumb(150,150, {'mode' : 'crop'}) }}" alt="" />
                                             {% else %}
