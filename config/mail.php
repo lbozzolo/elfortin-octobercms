@@ -117,6 +117,14 @@ return [
         'address' => 'f5aa3b32b4-49e2ea@inbox.mailtrap.io',
         'name' => 'Catch all mail'
 
-    ]
+    ],
+
+    'stream' => [
+        'ssl' => [
+            'allow_self_signed' => true,
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+        ],
+    ],
 
 ];
