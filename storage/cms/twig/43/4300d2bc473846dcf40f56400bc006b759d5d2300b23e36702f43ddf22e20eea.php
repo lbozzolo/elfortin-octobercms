@@ -73,7 +73,9 @@ class __TwigTemplate_8b17a0a3c348d50a0d08d983765ff733836cedea74829b6d57d47a959df
                                     <div class=\"product-img\">
                                         <a href=\"";
             // line 31
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter(($context["detailsPage"] ?? null), [($context["detailsUrlParameter"] ?? null) => twig_get_attribute($this->env, $this->source, $context["record"], ($context["detailsKeyColumn"] ?? null), [], "any", false, false, false, 31)]);
+            echo twig_escape_filter($this->env, ($context["basePath"] ?? null), "html", null, true);
+            echo "/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["record"], "id", [], "any", false, false, false, 31), "html", null, true);
             echo "\">
                                             ";
             // line 32
@@ -214,7 +216,7 @@ class __TwigTemplate_8b17a0a3c348d50a0d08d983765ff733836cedea74829b6d57d47a959df
 
     public function getDebugInfo()
     {
-        return array (  194 => 83,  186 => 77,  175 => 72,  170 => 69,  157 => 63,  153 => 62,  150 => 61,  144 => 59,  142 => 58,  138 => 56,  129 => 53,  126 => 52,  122 => 51,  117 => 49,  113 => 48,  109 => 47,  99 => 40,  94 => 37,  88 => 35,  82 => 33,  80 => 32,  76 => 31,  69 => 26,  64 => 25,  39 => 2,  37 => 1,);
+        return array (  196 => 83,  188 => 77,  177 => 72,  172 => 69,  159 => 63,  155 => 62,  152 => 61,  146 => 59,  144 => 58,  140 => 56,  131 => 53,  128 => 52,  124 => 51,  119 => 49,  115 => 48,  111 => 47,  101 => 40,  96 => 37,  90 => 35,  84 => 33,  82 => 32,  76 => 31,  69 => 26,  64 => 25,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -249,7 +251,7 @@ class __TwigTemplate_8b17a0a3c348d50a0d08d983765ff733836cedea74829b6d57d47a959df
                                 <!-- Single-product start -->
                                 <div class=\"single-product\">
                                     <div class=\"product-img\">
-                                        <a href=\"{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}\">
+                                        <a href=\"{{ basePath }}/{{ record.id}}\">
                                             {% if(record.poster) %}
                                             <img src=\"{{ record.poster.thumb(150,150, {'mode' : 'crop'}) }}\" alt=\"\" />
                                             {% else %}

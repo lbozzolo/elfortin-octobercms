@@ -1,4 +1,4 @@
-1574766524a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:12338:"title = "Home"
+1621292702a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:12269:"title = "Home"
 url = "/"
 layout = "main"
 is_hidden = 0
@@ -12,7 +12,9 @@ is_hidden = 0
 
         <div class="slider-banner">
             <div class="google-maps">
-                <iframe width="560" height="315" class="iframe-responsivo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8255151298035!2d-58.92431948439282!3d-34.456576857235326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc832c9f974c1b%3A0x963bee59c65ecdf4!2sEstanislao+L%C3%B3pez+1138%2C+B1629GVV+Pilar+Centro%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1565965685786!5m2!1ses-419!2sar" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.1250041483986!2d-58.905871384774414!3d-34.448974580499836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDI2JzU2LjMiUyA1OMKwNTQnMTMuMyJX!5e0!3m2!1ses!2sar!4v1621112603477!5m2!1ses!2sar" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
             </div>
         </div>
         <!-- Slider-banner end -->
@@ -36,7 +38,7 @@ is_hidden = 0
                                     <h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304 422-721</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
                                     <h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h5>
@@ -62,7 +64,7 @@ is_hidden = 0
                                     <h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304 422-721</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
                                     <h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h5>
@@ -87,7 +89,7 @@ is_hidden = 0
                                     <h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304 422-721</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
                                     <h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h5>
@@ -239,7 +241,7 @@ is_hidden = 0
 
 <!-- PRODUCT-AREA END -->
 
-<hr>";s:5:"mtime";i:1574520798;s:6:"markup";s:12275:"<section class="slider-banner-area clearfix">
+<hr>";s:5:"mtime";i:1621112677;s:6:"markup";s:12211:"<section class="slider-banner-area clearfix">
     <!-- Sidebar-social-media start -->
 
     <!-- Sidebar-social-media start -->
@@ -248,7 +250,9 @@ is_hidden = 0
 
         <div class="slider-banner">
             <div class="google-maps">
-                <iframe width="560" height="315" class="iframe-responsivo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8255151298035!2d-58.92431948439282!3d-34.456576857235326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc832c9f974c1b%3A0x963bee59c65ecdf4!2sEstanislao+L%C3%B3pez+1138%2C+B1629GVV+Pilar+Centro%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1565965685786!5m2!1ses-419!2sar" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.1250041483986!2d-58.905871384774414!3d-34.448974580499836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDI2JzU2LjMiUyA1OMKwNTQnMTMuMyJX!5e0!3m2!1ses!2sar!4v1621112603477!5m2!1ses!2sar" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
             </div>
         </div>
         <!-- Slider-banner end -->
@@ -272,7 +276,7 @@ is_hidden = 0
                                     <h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304 422-721</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
                                     <h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h5>
@@ -298,7 +302,7 @@ is_hidden = 0
                                     <h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304 422-721</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
                                     <h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h5>
@@ -323,7 +327,7 @@ is_hidden = 0
                                     <h2 class="slider-title3 text-uppercase mb-0">TELEFONO</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304-430150</h2>
+                                    <h2 class="slider-title2 text-uppercase mb-0" style="color: #b0c951">02304 422-721</h2>
                                 </div>
                                 <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s">
                                     <h5 class="slider-title4 text-uppercase" style="color: #ffffff">HORARIO</h5>

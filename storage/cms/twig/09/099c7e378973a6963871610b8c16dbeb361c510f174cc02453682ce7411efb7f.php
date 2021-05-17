@@ -80,10 +80,7 @@ class __TwigTemplate_01222c7c0f57adb511f93f52c9774c91f30c4cc8612b1d0df1e9d7bfa0c
                                 <!-- Single-product start -->
                                 <div class=\"single-product\">
                                     <div class=\"product-img\">
-                                        <a href=\"";
-            // line 35
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter(($context["detailsPage"] ?? null), [($context["detailsUrlParameter"] ?? null) => twig_get_attribute($this->env, $this->source, $context["record"], ($context["detailsKeyColumn"] ?? null), [], "any", false, false, false, 35)]);
-            echo "\">
+                                        <a href=\"\">
                                             ";
             // line 36
             if (twig_get_attribute($this->env, $this->source, $context["record"], "poster", [], "any", false, false, false, 36)) {
@@ -259,7 +256,7 @@ class __TwigTemplate_01222c7c0f57adb511f93f52c9774c91f30c4cc8612b1d0df1e9d7bfa0c
 
     public function getDebugInfo()
     {
-        return array (  241 => 99,  237 => 97,  231 => 95,  229 => 94,  226 => 93,  215 => 90,  210 => 89,  206 => 88,  203 => 87,  197 => 85,  195 => 84,  192 => 83,  190 => 82,  183 => 77,  172 => 72,  167 => 69,  159 => 65,  153 => 63,  151 => 62,  147 => 60,  138 => 57,  135 => 56,  131 => 55,  126 => 53,  122 => 52,  118 => 51,  108 => 44,  103 => 41,  97 => 39,  91 => 37,  89 => 36,  85 => 35,  78 => 30,  73 => 29,  49 => 7,  47 => 6,  45 => 5,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  238 => 99,  234 => 97,  228 => 95,  226 => 94,  223 => 93,  212 => 90,  207 => 89,  203 => 88,  200 => 87,  194 => 85,  192 => 84,  189 => 83,  187 => 82,  180 => 77,  169 => 72,  164 => 69,  156 => 65,  150 => 63,  148 => 62,  144 => 60,  135 => 57,  132 => 56,  128 => 55,  123 => 53,  119 => 52,  115 => 51,  105 => 44,  100 => 41,  94 => 39,  88 => 37,  86 => 36,  78 => 30,  73 => 29,  49 => 7,  47 => 6,  45 => 5,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -298,7 +295,7 @@ class __TwigTemplate_01222c7c0f57adb511f93f52c9774c91f30c4cc8612b1d0df1e9d7bfa0c
                                 <!-- Single-product start -->
                                 <div class=\"single-product\">
                                     <div class=\"product-img\">
-                                        <a href=\"{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}\">
+                                        <a href=\"\">
                                             {% if(record.poster) %}
                                             <img src=\"{{ record.poster.thumb(150,150, {'mode' : 'crop'}) }}\" alt=\"\" />
                                             {% else %}

@@ -43,7 +43,9 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
 
         <div class=\"slider-banner\">
             <div class=\"google-maps\">
-                <iframe width=\"560\" height=\"315\" class=\"iframe-responsivo\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8255151298035!2d-58.92431948439282!3d-34.456576857235326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc832c9f974c1b%3A0x963bee59c65ecdf4!2sEstanislao+L%C3%B3pez+1138%2C+B1629GVV+Pilar+Centro%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1565965685786!5m2!1ses-419!2sar\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>
+            
+            <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.1250041483986!2d-58.905871384774414!3d-34.448974580499836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDI2JzU2LjMiUyA1OMKwNTQnMTMuMyJX!5e0!3m2!1ses!2sar!4v1621112603477!5m2!1ses!2sar\" width=\"560\" height=\"315\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>
+            
             </div>
         </div>
         <!-- Slider-banner end -->
@@ -54,15 +56,15 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
             <div class=\"bend niceties preview-2\">
                 <div id=\"ensign-nivoslider\" class=\"slides\">
                     <img src=\"";
-        // line 20
+        // line 22
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/slider/slider-1/1a.jpg");
         echo "\" alt=\"\" title=\"#slider-direction-1\"  />
                     <img src=\"";
-        // line 21
+        // line 23
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/slider/slider-1/2a.jpg");
         echo "\" alt=\"\" title=\"#slider-direction-2\"  />
                     <img src=\"";
-        // line 22
+        // line 24
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/slider/slider-1/3a.jpg");
         echo "\" alt=\"\" title=\"#slider-direction-3\"  />
                 </div>
@@ -76,7 +78,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                                     <h2 class=\"slider-title3 text-uppercase mb-0\">TELEFONO</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"1.5s\" data-wow-delay=\"1.5s\">
-                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304-430150</h2>
+                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304 422-721</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"2.5s\">
                                     <h5 class=\"slider-title4 text-uppercase\" style=\"color: #ffffff\">HORARIO</h5>
@@ -102,7 +104,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                                     <h2 class=\"slider-title3 text-uppercase mb-0\">TELEFONO</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"1.5s\" data-wow-delay=\"1.5s\">
-                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304-430150</h2>
+                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304 422-721</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"2.5s\">
                                     <h5 class=\"slider-title4 text-uppercase\" style=\"color: #ffffff\">HORARIO</h5>
@@ -127,7 +129,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                                     <h2 class=\"slider-title3 text-uppercase mb-0\">TELEFONO</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"1.5s\" data-wow-delay=\"1.5s\">
-                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304-430150</h2>
+                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304 422-721</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"2.5s\">
                                     <h5 class=\"slider-title4 text-uppercase\" style=\"color: #ffffff\">HORARIO</h5>
@@ -168,31 +170,31 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                             <tbody>
                             <tr>
                                 <td><img src=\"";
-        // line 125
+        // line 127
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/clientes/cliente001.jpg");
         echo "\"></td>
                                 <td><img src=\"";
-        // line 126
+        // line 128
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/clientes/cliente002.jpg");
         echo "\"></td>
                             </tr>
                             <tr>
                                 <td><img src=\"";
-        // line 129
+        // line 131
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/clientes/cliente03.png");
         echo "\"></td>
                                 <td><img src=\"";
-        // line 130
+        // line 132
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/clientes/cliente04.png");
         echo "\"></td>
                             </tr>
                             <tr>
                                 <td><img src=\"";
-        // line 133
+        // line 135
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/clientes/cliente05.png");
         echo "\"></td>
                                 <td><img src=\"";
-        // line 134
+        // line 136
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/clientes/cliente06.png");
         echo "\"></td>
                             </tr>
@@ -210,7 +212,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 149
+        // line 151
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "agroquimicos"]);
         echo "\">
                                 AGROQUIMICOS
@@ -221,7 +223,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 157
+        // line 159
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "fertilizantes"]);
         echo "\">
                                 FERTILIZANTES
@@ -233,7 +235,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 166
+        // line 168
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "semillas"]);
         echo "\">
                                 SEMILLAS
@@ -245,7 +247,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 175
+        // line 177
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "herramientas"]);
         echo "\">
                                 HERRAMIENTAS
@@ -261,7 +263,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 188
+        // line 190
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "horticultura"]);
         echo "\">
                                 HORTICULTURA
@@ -272,7 +274,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 196
+        // line 198
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "polo"]);
         echo "\">
                                 POLO
@@ -284,7 +286,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 205
+        // line 207
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "golf"]);
         echo "\">
                                 GOLF
@@ -296,7 +298,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 214
+        // line 216
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "jardines-espacios-verdes"]);
         echo "\">
                                 JARDINES / ESPACIOS VERDES
@@ -308,7 +310,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                     <div class=\"panel\">
                         <div class=\"accordion-title\">
                             <a href=\"";
-        // line 223
+        // line 225
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("categorias", ["slug" => "control-de-plagas"]);
         echo "\">
                                 CONTROL DE PLAGAS
@@ -339,7 +341,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
 
     public function getDebugInfo()
     {
-        return array (  312 => 223,  300 => 214,  288 => 205,  276 => 196,  265 => 188,  249 => 175,  237 => 166,  225 => 157,  214 => 149,  196 => 134,  192 => 133,  186 => 130,  182 => 129,  176 => 126,  172 => 125,  66 => 22,  62 => 21,  58 => 20,  37 => 1,);
+        return array (  314 => 225,  302 => 216,  290 => 207,  278 => 198,  267 => 190,  251 => 177,  239 => 168,  227 => 159,  216 => 151,  198 => 136,  194 => 135,  188 => 132,  184 => 131,  178 => 128,  174 => 127,  68 => 24,  64 => 23,  60 => 22,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -353,7 +355,9 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
 
         <div class=\"slider-banner\">
             <div class=\"google-maps\">
-                <iframe width=\"560\" height=\"315\" class=\"iframe-responsivo\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8255151298035!2d-58.92431948439282!3d-34.456576857235326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc832c9f974c1b%3A0x963bee59c65ecdf4!2sEstanislao+L%C3%B3pez+1138%2C+B1629GVV+Pilar+Centro%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1565965685786!5m2!1ses-419!2sar\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>
+            
+            <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.1250041483986!2d-58.905871384774414!3d-34.448974580499836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDI2JzU2LjMiUyA1OMKwNTQnMTMuMyJX!5e0!3m2!1ses!2sar!4v1621112603477!5m2!1ses!2sar\" width=\"560\" height=\"315\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>
+            
             </div>
         </div>
         <!-- Slider-banner end -->
@@ -377,7 +381,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                                     <h2 class=\"slider-title3 text-uppercase mb-0\">TELEFONO</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"1.5s\" data-wow-delay=\"1.5s\">
-                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304-430150</h2>
+                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304 422-721</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"2.5s\">
                                     <h5 class=\"slider-title4 text-uppercase\" style=\"color: #ffffff\">HORARIO</h5>
@@ -403,7 +407,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                                     <h2 class=\"slider-title3 text-uppercase mb-0\">TELEFONO</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"1.5s\" data-wow-delay=\"1.5s\">
-                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304-430150</h2>
+                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304 422-721</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"2.5s\">
                                     <h5 class=\"slider-title4 text-uppercase\" style=\"color: #ffffff\">HORARIO</h5>
@@ -428,7 +432,7 @@ class __TwigTemplate_341c9242af55f915cf10ead125d1589170148c3f0792a5f84484f107581
                                     <h2 class=\"slider-title3 text-uppercase mb-0\">TELEFONO</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"1.5s\" data-wow-delay=\"1.5s\">
-                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304-430150</h2>
+                                    <h2 class=\"slider-title2 text-uppercase mb-0\" style=\"color: #b0c951\">02304 422-721</h2>
                                 </div>
                                 <div class=\"wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"2.5s\">
                                     <h5 class=\"slider-title4 text-uppercase\" style=\"color: #ffffff\">HORARIO</h5>

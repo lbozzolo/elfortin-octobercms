@@ -39,14 +39,31 @@ class __TwigTemplate_05efaa2f080986f7d9d79e6fb8c2cc23c306ce4cffb4be6b6bc99be8eca
     <div class=\"footer-area\">
         <div class=\"container\">
             <div class=\"row\">
-                <div class=\"col-lg-4 col-md-4 col-sm-6 col-xs-12\">
+                <div class=\"col-lg-6 col-md-6 col-sm-10 col-xs-12\">
                     <div class=\"single-footer\">
                         <h3 class=\"footer-title  title-border\">INFORMACION</h3>
                         <ul class=\"footer-contact\">
-                            <li><span>Dirección :</span>Estanislao López 1138, B1629<br>Ex Ruta 8 - Pilar, Buenos Aires</li>
+                            <li>
+                                <strong style=\"font-size: 1.2em\">Atención al Público: </strong><br><br>
+                                <div style=\"margin-left: 15px\">
+                                    <strong>Dirección:</strong> Dr. Bernardo Houssay 206 (Colectora Este, Km 53), B1630, Pilar, Buenos Aires.<br>
+                                    <strong>Teléfono:</strong> 0230 4422-721
+                                </div>
+                            </li>
+                        </ul><br>
+                        <ul class=\"footer-contact\">
+                            <li>
+                                <strong style=\"font-size: 1.2em\">Oficinas y Depósito Central: </strong><br><br>
+                                <div style=\"margin-left: 15px\">
+                                    <strong>Dirección:</strong> Estanislao Lopez 1138, B1629 Ex Ruta 8 - Pilar, Buenos Aires<br>
+                                    <strong>Teléfono:</strong> 02304 422-721
+                                </div>
+                            </li>
                         </ul>
+                        
                     </div>
                 </div>
+                
 
                 <div class=\"col-lg-2 col-md-2 col-sm-3 col-xs-12\">
                     <div class=\"single-footer\">
@@ -61,17 +78,17 @@ class __TwigTemplate_05efaa2f080986f7d9d79e6fb8c2cc23c306ce4cffb4be6b6bc99be8eca
                     <div class=\"single-footer\">
                         <h3 class=\"footer-title  title-border\">CONTACTANOS</h3>
                         <ul class=\"footer-contact\">
-                            <li><span>Nextel :</span>705*69</li>
                             <li><span>Celular :</span>011-15-66060977</li>
-                            <li><span>Teléfono :</span>02304-430150</li>
+                            <li><span>Oficinas y Deposito Central :</span>02304 - 430150</li>
+                            <li><span>Atención al Público :</span>02304 - 422721</li>
                             <li><span>Email :</span>ventas@fortinagropecuaria.com.ar</li>
                         </ul>
                     </div>
-                </div>
+                </div><br><br>
                 <div class=\"col-sm-6 col-xs-12\">
                     <div class=\"copyright\">
                         <p class=\"mb-0\">&copy; <a href=\"";
-        // line 37
+        // line 54
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\"> Fortinagropecuaria.com.ar  </a> 2019. @ By Verticedigital & Cuartocreativo.</p>
                     </div>
@@ -96,7 +113,7 @@ class __TwigTemplate_05efaa2f080986f7d9d79e6fb8c2cc23c306ce4cffb4be6b6bc99be8eca
 
     public function getDebugInfo()
     {
-        return array (  75 => 37,  37 => 1,);
+        return array (  92 => 54,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -106,14 +123,31 @@ class __TwigTemplate_05efaa2f080986f7d9d79e6fb8c2cc23c306ce4cffb4be6b6bc99be8eca
     <div class=\"footer-area\">
         <div class=\"container\">
             <div class=\"row\">
-                <div class=\"col-lg-4 col-md-4 col-sm-6 col-xs-12\">
+                <div class=\"col-lg-6 col-md-6 col-sm-10 col-xs-12\">
                     <div class=\"single-footer\">
                         <h3 class=\"footer-title  title-border\">INFORMACION</h3>
                         <ul class=\"footer-contact\">
-                            <li><span>Dirección :</span>Estanislao López 1138, B1629<br>Ex Ruta 8 - Pilar, Buenos Aires</li>
+                            <li>
+                                <strong style=\"font-size: 1.2em\">Atención al Público: </strong><br><br>
+                                <div style=\"margin-left: 15px\">
+                                    <strong>Dirección:</strong> Dr. Bernardo Houssay 206 (Colectora Este, Km 53), B1630, Pilar, Buenos Aires.<br>
+                                    <strong>Teléfono:</strong> 0230 4422-721
+                                </div>
+                            </li>
+                        </ul><br>
+                        <ul class=\"footer-contact\">
+                            <li>
+                                <strong style=\"font-size: 1.2em\">Oficinas y Depósito Central: </strong><br><br>
+                                <div style=\"margin-left: 15px\">
+                                    <strong>Dirección:</strong> Estanislao Lopez 1138, B1629 Ex Ruta 8 - Pilar, Buenos Aires<br>
+                                    <strong>Teléfono:</strong> 02304 422-721
+                                </div>
+                            </li>
                         </ul>
+                        
                     </div>
                 </div>
+                
 
                 <div class=\"col-lg-2 col-md-2 col-sm-3 col-xs-12\">
                     <div class=\"single-footer\">
@@ -128,13 +162,13 @@ class __TwigTemplate_05efaa2f080986f7d9d79e6fb8c2cc23c306ce4cffb4be6b6bc99be8eca
                     <div class=\"single-footer\">
                         <h3 class=\"footer-title  title-border\">CONTACTANOS</h3>
                         <ul class=\"footer-contact\">
-                            <li><span>Nextel :</span>705*69</li>
                             <li><span>Celular :</span>011-15-66060977</li>
-                            <li><span>Teléfono :</span>02304-430150</li>
+                            <li><span>Oficinas y Deposito Central :</span>02304 - 430150</li>
+                            <li><span>Atención al Público :</span>02304 - 422721</li>
                             <li><span>Email :</span>ventas@fortinagropecuaria.com.ar</li>
                         </ul>
                     </div>
-                </div>
+                </div><br><br>
                 <div class=\"col-sm-6 col-xs-12\">
                     <div class=\"copyright\">
                         <p class=\"mb-0\">&copy; <a href=\"{{ 'home'|page }}\"> Fortinagropecuaria.com.ar  </a> 2019. @ By Verticedigital & Cuartocreativo.</p>

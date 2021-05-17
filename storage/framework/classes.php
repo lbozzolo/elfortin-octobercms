@@ -299,4 +299,6 @@
   'Cms\\Classes\\ComponentHelpers' => 'modules/cms/classes/ComponentHelpers.php',
   'October\\Demo\\Components\\Todo' => 'plugins/october/demo/components/Todo.php',
   'Cms\\FormWidgets\\Components' => 'modules/cms/formwidgets/Components.php',
+  'System\\Classes\\MediaLibrary' => 'modules/system/classes/MediaLibrary.php',
+  'System\\Classes\\MediaLibraryItem' => 'modules/system/classes/MediaLibraryItem.php',
 );
